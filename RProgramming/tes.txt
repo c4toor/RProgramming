@@ -1,0 +1,3 @@
+https://github.com/c4toor/datasciencetoolbox.git
+
+git@github.com:c4toor/RProgramming.git
