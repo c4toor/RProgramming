@@ -33,11 +33,11 @@ cacheinv <- function(x, ...) {
 timediff <- function(thematrix){
         ## @mat: an invertible matrix
         
-        temp = makeCacheMatrix(thematrix)
+        thecache = makeCacheMatrix(thematrix)
         
         start.time = Sys.time()
-        cacheinv(temp)
-        dur = Sys.time() - start.time
-        print(dur)
+        cacheinv(thecache)
+        duration = Sys.time() - start.time
+        print(duration)
         
 }
